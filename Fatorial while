@@ -1,0 +1,8 @@
+# Calcular un numero fatorial
+n = int(input("Digite um número:"))
+i = n
+fat = 1
+while i > 1:
+    fat = fat * i
+    i = i -1
+print ("Fatorial =" , fat)
